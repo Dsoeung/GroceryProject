@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="3188160_groceryProject">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/groceryproject.dx.am" local="$PROJECT_DIR$" web="/home/www&#9;" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/groceryproject.dx.am/banner" />
+            <excludedPath path="/groceryproject.dx.am/images" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

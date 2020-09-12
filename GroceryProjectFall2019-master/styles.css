@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: url(dark_geometric.png)
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active1 {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: calc(100% /3);
+    min-width: 370px !important;
+    padding-bottom: 30px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+#container {
+    width: 1400px;
+    overflow-x: hidden;
+    margin: 50px auto;
+    background: white;
+    position:fixed;
+}
+
+.photobanner {
+    height: 233px;
+    width: 3850px;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+    -ms-animation: bannermove 30s linear infinite;
+    -o-animation: bannermove 30s linear infinite;
+    animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+    0% {
+        margin-left: 0
+    }
+    100% {
+        margin-left: -2480px
+    }
+}
+
+@-moz-keyframes bannermove {
+    0% {
+        margin-left: 0
+    }
+    100% {
+        margin-left: -2480px
+    }
+}
+
+@-webkit-keyframes "bannermove" {
+    0% {
+        margin-left: 0
+    }
+    100% {
+        margin-left: -2480px
+    }
+}
+
+@-ms-keyframes "bannermove" {
+    0% {
+        margin-left: 0
+    }
+    100% {
+        margin-left: -2480px
+    }
+}
+
+@-o-keyframes "bannermove" {
+    0% {
+        margin-left: 0
+    }
+    100% {
+        margin-left: -2480px
+    }
+}
+
+
+.productTable[align="center"] {
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+
+.head {
+    align-self: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #4CAF50;
+}
+
+.sub_head {
+    align-self: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #4CAF50;
+}
+
+.money {
+    text-align: right;
+}
+
+.even td, tr.even th {
+    align-self: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #27ff7a;
+
+}
+
+.odd td, tr.odd th {
+    align-self: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #cccccc;
+
+}
+
+.foot {
+    position: relative;
+    bottom: 0;
+    z-index: 100;
+}
+
+
